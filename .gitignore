@@ -1,20 +1,6 @@
 
 ###> symfony/framework-bundle ###
-/.env.local
-/.env.local.php
-/.env.*.local
-/public/bundles/
-/var/
-/vendor/
-/bin/
-/config/
-/src/
-/tests/
-/translations/
-/composer.json
-/composer.lock
-/phpunit.xml.dist
-/symfony.lock
+
 ###< symfony/framework-bundle ###
 
 ###> symfony/phpunit-bridge ###
