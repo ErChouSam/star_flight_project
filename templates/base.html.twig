@@ -1,12 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr-FR">
     <head>
-        <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/>
+        <title>{% block title %}Star Flight{% endblock %}</title>
+        <meta name="Description" content="Ma description"/>
+        <style>@import '{{ asset('css/main.css') }}';</style>
         {% block stylesheets %}{% endblock %}
     </head>
     <body>
-        {% block body %}{% endblock %}
+        <header>
+            <h1>Star Flight</h1>
+            <nav>
+                <a></a>
+                <a></a>
+                <a></a>
+            </nav>
+        </header>
+        <main id="main_0">{% block main_1 %}{% endblock %}</main>
+        <main id="main_1">{% block main_2 %}{% endblock %}</main>
+        <main id="main_2">{% block main_3 %}{% endblock %}</main>
+        <script src="{{ asset('js/main.js') }}"></script>
         {% block javascripts %}{% endblock %}
     </body>
 </html>
