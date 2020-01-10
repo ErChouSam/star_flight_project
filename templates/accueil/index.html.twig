@@ -1,7 +1,13 @@
 {% extends 'base.html.twig' %}
 
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{asset('css/reservation.css')}}">
+    <script src="{{ asset('js/reservation.js') }}" defer="defer"></script>
+{% endblock %}
+
 {% block body %}
-    <main id="main_0">{% block main_1 %}{% endblock %}</main>
-    <main id="main_1">{% block main_2 %}{% endblock %}</main>
-    <main id="main_2">{% block main_3 %}{% endblock %}</main>
+    <main id="main_0"></main>
+    <main id="main_1"></main>
+    <main id="main_2">{% include 'accueil/reservation.html' %}</main>
 {% endblock %}
