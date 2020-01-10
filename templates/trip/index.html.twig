@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello TripController!{% endblock %}
+
+{% block body %}
+    <label>
+        Depart :
+        <select name="depart">
+            {% for trip in trips %}
+                <option value="{% trip.origin %}"></option>
+            {% endfor %}
+        </select>
+    </label>
+
+    <label>
+        Arrivée :
+        <select name="destination">
+            {% for trip in trips %}
+                <option value="{% trip.arrival %}"></option>
+            {% endfor %}
+        </select>
+    </label>
+{% endblock %}
