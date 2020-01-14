@@ -3,11 +3,22 @@
 
 {% block stylesheets %}
     <link rel="stylesheet" href="{{asset('css/reservation.css')}}">
+    <link rel="stylesheet" href="{{asset('css/presentation.css')}}">
+    <link rel="stylesheet" href="{{asset('css/vaisseau.css')}}">
     <script src="{{ asset('js/reservation.js') }}" defer="defer"></script>
+    <script src="{{ asset('js/vaisseau.js') }}" defer="defer"></script>
 {% endblock %}
 
 {% block body %}
-    <main id="main_0"></main>
-    <main id="main_1"></main>
-    <main id="main_2">{% include 'accueil/reservation.html' %}</main>
+    <header>
+        <h1>Star Flight</h1>
+        <nav>
+            <a class="bubble"></a>
+            <a class="bubble"></a>
+            <a class="bubble"></a>
+        </nav>
+    </header>
+    <main id="main_0">{% include 'accueil/presentation.html' %}</main>
+    <main id="main_1">{% include 'accueil/vaisseau.html.twig' %}</main>
+    <main id="main_2">{% include 'accueil/reservation.html.twig' %}</main>
 {% endblock %}

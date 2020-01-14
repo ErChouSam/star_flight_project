@@ -1,45 +1,47 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:300,400,700,900&display=swap');
-body{
+#main_2{
     font-family: 'Rubik', sans-serif;
-    margin: auto;
-    background-image : url('../../public/img/form.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
+    font-size: 16px;
+}
+#main_2 >form > div{
+    display: flex;
 }
 
-label{
-    color: #D4D4CF;
+
+#main_2 > form > label{
+    color: #ECFFFD;
+    font-size: 18px;
 }
 
-main > form{
-    margin: 100px 200px;
+#main_2 > form{
+    margin-left: 15%;
+    transform: translateY(25%);
     width: 30%;
     border-radius: 10px;
     padding: 10px 40px 10px 40px;
+    background-color : rgba(50, 50, 63, 0.53);
+}
+
+#main_2 > form:hover{
     background-color : rgba(30, 30, 42, 0.57);
 }
 
-form:hover{
-    background-color : rgba(30, 30, 42, 0.57);
-}
-
-h1{
-    color: #FAFCF3;
+#main_2 >form > h1{
+    color: #ECFFFD;
     letter-spacing: 2px;
 }
 
-h2{
+#main_2 > form > h2{
     font-weight: normal;
-    color: #FAFCF3;
+    color: #ECFFFD;
+    font-size: 18px;
 }
 
-input{
+#main_2 > form > input{
     width: 80%;
     height: 35px;
     border-radius: 5px;
-    background-color : #FFF;
+    background-color : #FAF8FF;
     border: none;
     margin-left: calc((100% - 80%) / 2);
 }
@@ -54,17 +56,16 @@ input{
     margin-left: calc((100% - 30% ) / 2);
     margin-top: 30px;
     margin-bottom: 10px;
+    background-color : #FAF8FF;
 }
 
-p{
+
+
+#main_2 > form > div > p{
     color : #FFF;
     text-align: center;
     font-weight: bold;
     font-size: 26px;
-}
-
-div{
-    display: flex;
 }
 
 .compteur{
@@ -73,8 +74,9 @@ div{
     cursor: pointer;
     border-radius: 5px;
     border: none;
-    margin: 0 calc((100% - 70% ) / 2);
+    margin: 0 calc((100% - 60% ) / 2);
     font-size: 26px;
+    background-color : #FAF8FF;
 }
 
 #low::before{
@@ -104,7 +106,7 @@ div{
 }
 
 .custom-dropdown__select--white {
-    background-color : #FFF;
+    background-color : #FAF8FF;
     color: #444;
 }
 
@@ -162,7 +164,7 @@ div{
     /* White dropdown style */
     .custom-dropdown--white::before {
         top: .5em; bottom: .5em;
-        background-color : #FFF;
+        background-color : #FAF8FF;
         border-left: 1px solid rgba(0,0,0,.1);
     }
 

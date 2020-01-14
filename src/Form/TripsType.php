@@ -29,7 +29,7 @@ class TripsType extends AbstractType
             ->add('ArrivalDate',DateType::class)
             ->add('Origin',TextType::class)
             ->add('Arrival',TextType::class)
-            ->add('SpaceShip',SpaceShipType::class,[
+            ->add('SpaceShip',TripSpaceShipType::class,[
                 'label' => false
             ])
             ->add('submit',SubmitType::class)

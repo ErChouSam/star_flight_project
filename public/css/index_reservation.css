@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,700,900&display=swap');
+body{
+    background-image : url("../img/img_3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    height: 100vh;
+    font-size: 16px ;
+}
+
+h1{
+    font-size: 36px;
+    padding: 20px;
+}
+article{
+    margin: auto;
+    transform: translateY(40%);
+    width: 60%;
+    height: 60%;
+    background-color : rgba(30, 30, 42, 0.57);
+    border-radius: 10px;
+    text-align: center;
+    
+}

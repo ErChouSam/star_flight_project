@@ -1,0 +1,48 @@
+#main_0{
+    font-size: 16px;
+}
+
+#main_0 > img {
+    z-index  : -1;
+    position : absolute;
+    height   : 100vh;
+    width    : 100vw;
+    border   : none;
+}
+
+#main_0 > article {
+    color     : white;
+    font-size : 1em;
+    padding-top: 15%;
+}
+
+#main_0 > article > h1 {
+    margin-top  : 0;
+    padding-top : 35px;
+    font-size   : 2.5em;
+    text-align  : center;
+    text-shadow : -2px -2px #000;
+}
+
+#main_0 > article > section {
+    margin           : 7% 15%;
+    background-color : rgba(0, 0, 0, .45);
+    border           : 1em;
+}
+
+#main_0 > article > section:hover{
+    background-color : rgba(0, 0, 0, .75);
+}
+
+#main_0 > article > section > h2 {
+    font-size   : 1.5em;
+    text-align  : left;
+    text-shadow : -2px -2px #000;
+    border      : 1em;
+    margin    : 2%;
+}
+
+#main_0 > article > section > p {
+    font-size : 1em;
+    margin    : 2%;
+}

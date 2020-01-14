@@ -59,12 +59,11 @@ body>main{
 }
 
 body>main:first-of-type{
-    background-image: url("../img/img_1.jpg");
+    background-image: url("../img/background.jpg");
     background-size: 100% 100%;
 }
-body>main:nth-of-type(2){
-    background-image: url("../img/img_2.jpg");
-    background-size: 100% 100%;
+body>main:nth-of-type(2) {
+    position: relative;
 }
 body>main:last-of-type{
     background-image: url("../img/img_3.jpg");
